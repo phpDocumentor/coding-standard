@@ -19,4 +19,4 @@ jobs:
       - name: self-run
         uses: ./
         with:
-          args: "--help"
+          args: "-i"
