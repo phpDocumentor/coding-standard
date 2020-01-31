@@ -5,4 +5,4 @@ branding:
   icon: crosshair
 runs:
   using: docker
-  image: docker.pkg.github.com/phpdocumentor/coding-standard/phpcs:latest
+  image: docker://docker.pkg.github.com/phpdocumentor/coding-standard/phpcs:latest
