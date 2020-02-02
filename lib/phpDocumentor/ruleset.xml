@@ -11,6 +11,10 @@
         <exclude name="Generic.Formatting.MultipleStatementAlignment.NotSame" />
         <exclude name="SlevomatCodingStandard.Classes.SuperfluousExceptionNaming.SuperfluousSuffix" />
         <exclude name="SlevomatCodingStandard.TypeHints.UselessConstantTypeHint.UselessDocComment" />
+
+        <!-- Disable param alignment in docblocks -->
+        <exclude name="Squiz.Commenting.FunctionComment.SpacingAfterParamType" />
+        <exclude name="Squiz.Commenting.FunctionComment.SpacingAfterParamName" />
     </rule>
 
     <rule ref="Generic.Formatting.SpaceAfterNot">
