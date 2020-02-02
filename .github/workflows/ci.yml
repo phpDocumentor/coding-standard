@@ -2,6 +2,7 @@ on:
   push:
     branch:
       - master
+  release:
 name: ci
 jobs:
   build:
