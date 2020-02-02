@@ -5,4 +5,4 @@ branding:
   icon: crosshair
 runs:
   using: docker
-  image: docker://phpdoc/phpcs-ga:latest
+  image: docker://phpdoc/phpcs-ga:v1.0.0
