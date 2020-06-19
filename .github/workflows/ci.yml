@@ -1,14 +1,14 @@
 on:
   push:
     branch:
-      - master
+      - latest
   release:
 name: ci
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@master
+      - uses: actions/checkout@v2
       - name: Build
         uses: elgohr/Publish-Docker-Github-Action@master
         with:
