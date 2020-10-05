@@ -5,7 +5,7 @@ WORKDIR /opt/phpdoc
 
 RUN composer install
 
-FROM php:7.3-alpine
+FROM php:7.4.11-alpine
 
 COPY --from=builder /opt/phpdoc /opt/phpdoc
 
