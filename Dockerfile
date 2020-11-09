@@ -1,4 +1,4 @@
-FROM composer:1.10.13 as builder
+FROM composer:2.0.4 as builder
 
 COPY . /opt/phpdoc
 WORKDIR /opt/phpdoc
