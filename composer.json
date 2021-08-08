@@ -21,7 +21,6 @@
     }
   },
   "require": {
-    "php": "^7.2",
     "doctrine/coding-standard": "^9.0"
   },
   "config": {
