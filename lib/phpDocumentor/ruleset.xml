@@ -28,4 +28,8 @@
         <exclude-pattern>*/tests/unit/*.php</exclude-pattern>
         <exclude-pattern>*/tests/integration/*.php</exclude-pattern>
     </rule>
+
+    <!-- Check PHP cross-version compatibility. -->
+    <!-- Child rulesets should set the `testVersion` config for optimal results. -->
+    <rule ref="PHPCompatibility"/>
 </ruleset>

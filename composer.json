@@ -21,7 +21,8 @@
     }
   },
   "require": {
-    "doctrine/coding-standard": "^9.0"
+    "doctrine/coding-standard": "^9.0",
+    "phpcompatibility/phpcompatibility-all": "^1.1"
   },
   "config": {
     "sort-packages": true
