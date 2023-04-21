@@ -21,10 +21,13 @@
     }
   },
   "require": {
-    "doctrine/coding-standard": "^9.0",
+    "doctrine/coding-standard": "^11.1",
     "phpcompatibility/phpcompatibility-all": "^1.1"
   },
   "config": {
-    "sort-packages": true
+    "sort-packages": true,
+    "allow-plugins": {
+      "dealerdirect/phpcodesniffer-composer-installer": true
+    }
   }
 }

@@ -1,11 +1,11 @@
-FROM composer:2.5.4 as builder
+FROM composer:2.5.5 as builder
 
 COPY . /opt/phpdoc
 WORKDIR /opt/phpdoc
 
 RUN composer install
 
-FROM php:7.4-alpine
+FROM php:8.2-alpine
 
 COPY --from=builder /opt/phpdoc /opt/phpdoc
 
